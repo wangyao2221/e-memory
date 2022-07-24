@@ -1,0 +1,13 @@
+[server]
+host = "127.0.0.1"
+port = 8082
+
+[logConfig]
+maxSizeMb = 300
+maxBackupSize = 5
+maxAge = 2
+accessLogPath = "logs/access.log"
+backendLogPath = "logs/backend.log"
+
+[language]
+local = "zh-cn"

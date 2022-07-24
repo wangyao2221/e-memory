@@ -1,0 +1,10 @@
+[server]
+    host = "127.0.0.1"
+    port = 8080
+
+[log-config]
+    max-size-mb = 300
+    max-backup-size = 5
+    max-age = 2
+    access-log-path = "logs/access.log"
+    backend-log-path = "logs/backend.log"
